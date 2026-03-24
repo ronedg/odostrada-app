@@ -38318,10 +38318,10 @@ B.K2.fK(p);(self.URL||self.webkitURL).revokeObjectURL(n)
 return A.l(null,r)}})
 return A.m($async$af8,r)},
 b78(a){var s,r,q,p,o,n=a.a
-if(n<=0||a.b<=0)return B.acm
+if(n<=0||a.b<=0)return B.acn
 s=n*0.34
 r=a.b
-q=Math.min(104,r*0.1)
+q=Math.min(220,r*0.16)
 p=(n-s)/2/n
 o=(r-q)/2/r
 return new A.I(p,o,p+s/n,o+q/r)},
@@ -140269,7 +140269,7 @@ p=p.z
 s=p==null
 if(s)r=m!=null&&m!==1&&m!==0
 else r=!0
-if(r){o=n?q:o.aXI(B.acn,this.a)
+if(r){o=n?q:o.aXI(B.acm,this.a)
 if(o==null){o=A.zY(0,0,0,m==null?1:m)
 o=new A.vB(o,q)}return new A.o9(s?B.jC:p,q,o)}return q},
 dt(a,b,c){return b.afw(this,c)},
@@ -149212,9 +149212,9 @@ B.qt=new A.ey('"',1,"DOUBLE_QUOTE")
 B.acj=new A.aZ("",B.qt)
 B.ack=new A.jJ(0,0,0,0)
 B.acl=new A.I(-1/0,-1/0,1/0,1/0)
-B.acm=new A.I(0.33,0.455,0.67,0.555)
 B.fd=new A.I(-1e9,-1e9,1e9,1e9)
-B.acn=new A.jJ(-1e9,-1e9,1e9,1e9)
+B.acm=new A.jJ(-1e9,-1e9,1e9,1e9)
+B.acn=new A.I(0.33,0.455,0.67,0.615)
 B.aco=new A.I(0.33,0.475,0.67,0.525)
 B.acp=new A.Co(0,"infiniteRecurring")
 B.acq=new A.Co(1,"finiteRecurring")
