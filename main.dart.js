@@ -133859,10 +133859,10 @@ a=n.getContext("2d")
 a.fillStyle="#000000"
 a.fillRect(0,0,p,o)
 a.drawImage(b,j,i,l,k)
-h=p*0.08
-g=o*0.32
-f=p*0.8400000000000001
-e=o*0.24000000000000005
+h=j+l*0.08
+g=i+k*0.32
+f=l*0.8400000000000001
+e=k*0.24000000000000005
 b=J.b7R(f)
 d=A.b8m(J.b7R(e),b)
 d.getContext("2d").drawImage(n,h,g,f,e,0,0,f,e)
