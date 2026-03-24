@@ -124080,8 +124080,8 @@ j.san(0,A.a_(115,B.r.n()>>>16&255,B.r.n()>>>8&255,B.r.n()&255))
 s=b.a
 r=0.08*s
 q=b.b
-p=0.32*q
-o=new A.K(r,p,r+0.84*s,p+0.24000000000000005*q)
+p=0.38*q
+o=new A.K(r,p,r+0.84*s,p+0.12*q)
 n=k.cP()
 n.kL(new A.K(0,0,0+s,0+q))
 m=k.cP()
@@ -133860,9 +133860,9 @@ a.fillStyle="#000000"
 a.fillRect(0,0,p,o)
 a.drawImage(b,j,i,l,k)
 h=j+l*0.08
-g=i+k*0.32
+g=i+k*0.38
 f=l*0.8400000000000001
-e=k*0.24000000000000005
+e=k*0.12
 b=J.b7R(f)
 d=A.b8m(J.b7R(e),b)
 d.getContext("2d").drawImage(n,h,g,f,e,0,0,f,e)
@@ -133930,7 +133930,7 @@ A.ad8.prototype={
 H(a){var s=null
 return A.iJ(s,s,s,new A.ad9(s),B.R)}}
 A.ad9.prototype={
-aO(a,b){var s,r=b.a,q=r*0.08,p=b.b,o=p*0.32,n=new A.K(q,o,q+r*0.84,o+p*0.24000000000000005)
+aO(a,b){var s,r=b.a,q=r*0.08,p=b.b,o=p*0.38,n=new A.K(q,o,q+r*0.84,o+p*0.12)
 r=0+r
 p=0+p
 o=$.aj()
@@ -145604,7 +145604,7 @@ B.vU=new A.hS(6,"sByte")
 B.ef=new A.hS(7,"undefined")
 B.vV=new A.hS(8,"sShort")
 B.vW=new A.hS(9,"sLong")
-B.p9=new A.K(0.08,0.32,0.9199999999999999,0.56)
+B.p9=new A.K(0.08,0.38,0.9199999999999999,0.5)
 B.apK=new A.a50(null)
 B.SC=new A.Ai(B.apK,null,B.R,null,null)
 B.Xh=new A.rw(!0,B.SC,null)
